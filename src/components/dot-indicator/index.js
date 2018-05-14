@@ -34,7 +34,7 @@ export default class DotIndicator extends PureComponent {
       width: size,
       height: size,
       margin: size / 2,
-      borderRadius: size / 2,
+      // borderRadius: size / 2,
       backgroundColor,
       transform: [{
         scale: progress.interpolate({
